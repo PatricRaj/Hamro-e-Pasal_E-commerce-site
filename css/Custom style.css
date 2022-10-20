@@ -115,8 +115,12 @@ width: 0;
 height: 2rem;
 animation: typing 5s forwards;
 animation-delay: 0.1s;
-font-family: 'Trebuchet MS', sans-serif; 
+font-family: 'Fuzzy Bubbles', cursive;
 }
+.typed-out span{
+    color: rgb(231, 157, 19) ;
+    }
+    
 .offer{
 overflow: hidden;
 font-size: 0.9rem;
@@ -137,3 +141,5 @@ to { width: 100% }
 from { width: 20% }
 to { width: 100% }
 }
+
+@import url(https://fonts.googleapis.com/css?family=Fuzzy+Bubbles);
